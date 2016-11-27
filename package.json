@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack -d --watch",
+    "build" : "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Macgyver Martins <macgyver.martins@gmail.com> (https://github.com/macgyvermartins)",
