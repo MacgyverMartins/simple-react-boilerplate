@@ -1,9 +1,15 @@
 import React from 'react';
 import {render} from 'react-dom';
+import AwesomeComponent from './awesome-component.jsx';
 
 class App extends React.Component {
   render () {
-    return <p> Simple React Boilerplate using NPM, Babel6 and Webpack </p>;
+    return (
+    <div>
+      <p> Simple React Boilerplate using NPM, Babel6 and Webpack </p>
+      <AwesomeComponent />
+    </div>
+    )
   }
 }
 
